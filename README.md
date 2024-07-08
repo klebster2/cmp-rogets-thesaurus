@@ -12,9 +12,27 @@ Generally, some improvements need to be made.
 
 If you are interested in contributing, please get in touch.
 
+Main issues:
+- Slow initial loading
+- Slow completion
+    slow
+
+- Proposed solution - split the thesaurus into shards organised based on the onsets of words
+  or use a prepared thesaurus (not a tsv file)
+
+nvim-cmp wasn't designed for comparing against thousands of candidates so these improvements should be looked into to prune lists being compared
+
+
+## Setup
+
+After using the packer / lazy neovim setup, run require
+
 ```lua
-require("rogets_thesaurus") ---- TODO - make this a plugin <<< $HOME/.config/nvim/lua/plugins/nvim-cmp/thesaurus.lua
+require('cmp_rogets_thesaurus')
 ```
+
+If you use lspkind, you can add a custom symbol
+
 
 ```lua
 lspkind.init({
@@ -27,7 +45,7 @@ lspkind.init({
 ```lua
 cmp.setup {
   sources = {
-    { name = "thesaurus", max_item_count = 10, priority = 3, keyword_length = 4 },
+    { name = "rogets_thesaurus", max_item_count = 10, priority = 3, keyword_length = 4 },
   },
   formatting = {
     fields = {

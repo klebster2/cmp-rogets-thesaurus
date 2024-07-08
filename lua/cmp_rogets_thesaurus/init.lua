@@ -18,11 +18,32 @@ source.is_available = function()
   return vim.api.nvim_get_mode().mode == 'i'
 end
 
+local function is_win()
+  return package.config:sub(1, 1) == '\\'
+end
+
+local function get_path_separator()
+  if is_win() then
+    return '\\'
+  end
+  return '/'
+end
+
+
+local function script_path()
+  local str = debug.getinfo(2, 'S').source:sub(2)
+  if is_win() then
+    str = str:gsub('/', '\\')
+  end
+  return str:match('(.*' .. get_path_separator() .. ')')
+end
+
 -- Create key-value parts for the thesaurus based on the concept number
 local key_value_parts = {}
 local rogets_thesaurus = {}
+local script_path = script_path()
 
-for line in io.lines(vim.fn.expand("./rogets_thesaurus.tsv")) do
+for line in io.lines(vim.fn.expand(script_path.."rogets_thesaurus.tsv")) do
     local parts = vim.split(line, '\t', true) -- True to trim results
 
     if #parts >= 3 and parts[2] then
@@ -70,6 +91,7 @@ function string.clean_synonym(syn)
           :gsub(' V. ', ' - ')
           :gsub(' Adv. ', ' - ')
           :gsub('%s?&c..?','')
+          :gsub('%(',''):gsub('%)','')
           --:gsub('.%s.*%a+$','')
         )
   return cleaned
@@ -101,8 +123,9 @@ source.complete = function(self, request, callback)
     local concept = parts[2]
     for i = 2, #parts do
       local cleaned_synonym = string.clean_synonym(parts[i])
+      local cleaned_query_word = query_word:gsub('%(',''):gsub('%)',''):gsub('%[',''):gsub('%]','')
       -- remove common determiners e.g. 'a' 'the' 'an'
-      if string.match(cleaned_synonym, '^'..query_word) and not seen_items[concept_number] then
+      if string.match(cleaned_synonym, '^'..cleaned_query_word) and not seen_items[concept_number] then
         local synonyms_kv = {}
         local initial_doc = '**' .. concept .. '**' .. ' ' .. concept_number .. ' - (' .. parts[i] .. ')'
 
@@ -129,7 +152,7 @@ source.complete = function(self, request, callback)
             end
 
             --- If one row contains the query_word, then use it as the primary row
-            if string.match(syn, query_word) then
+            if string.match(syn, cleaned_query_word) then
               use_as_primary_row = true
             end
 
@@ -172,4 +195,5 @@ source.complete = function(self, request, callback)
   callback({items = items, isIncomplete = false})
 end
 
-cmp.register_source('thesaurus', source.new())
+--cmp.register_source('thesaurus', source.new())
+return source
