@@ -1,0 +1,15 @@
+Junction	#43.	 tie, pinion, string, strap, sew, lace, tat, stitch, tack, knit, button, buckle, hitch, lash, truss, bandage, braid, splice, swathe, gird, tether, moor, picket, harness, chain
+Location	#184.	 moor, tether, picket
+Circumscription	#229.	 picket
+Warning	#668.	 patrol, patrolman, vedette, picket, bivouac, scout, spy, spial
+Defense	#717.	 truncheon &c. (weapon). garrison, picket, piquet
+Combatant	#726.	 piquet, picket, guard, rank, file
+Restraint	#751.	 picket
+Prison	#752.	 tether, picket, band, guy, chain
+Prison	#752.	 fence, picket fence, barbed wire fence, Cyclone fence, stockade fence, chain-link fence
+Condemnation	#971.	Punishment picket, picketing
+Condemnation	#971.	Punishment picket. banish, exile, transport, expel, ostracize
+Punishment	Phr.	 picket, picketing
+Punishment	Phr.	 picket. banish, exile, transport, expel, ostracize
+Punishment	#972.	 picket, picketing
+Punishment	#972.	 picket. banish, exile, transport, expel, ostracize

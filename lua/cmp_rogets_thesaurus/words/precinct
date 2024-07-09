@@ -1,0 +1,8 @@
+Inextension	#180a.	Place premises, precinct, station
+Region	#181.	Place premises, precinct, station
+Place	Adj.	 premises, precinct, station
+Place	#182.	 premises, precinct, station
+Limit	#233.	 stint, frontier, precinct, marches
+Authority	#737.	Government ward, precinct, bailiwick. command, empire, sway, rule
+Government	Phr.	 ward, precinct, bailiwick. command, empire, sway, rule
+Government	#737a.	 ward, precinct, bailiwick. command, empire, sway, rule

@@ -1,0 +1,16 @@
+Madman	#504.	 N. madman, lunatic, maniac, bedlamite, candidate for Bedlam, raver, madcap, crazy
+Authority	#737.	Politics [specific politicians: list], candidate, aspirant, hopeful, office-seeker, front-runner, dark horse, long shot, shoo-in
+Authority	#737.	Politics regional candidate, favorite son
+Authority	#737.	Politics perpetual candidate, political animal. political contribution, campaign contribution
+Government	Phr.	Politics [specific politicians: list], candidate, aspirant, hopeful, office-seeker, front-runner, dark horse, long shot, shoo-in
+Government	Phr.	Politics regional candidate, favorite son
+Government	Phr.	Politics perpetual candidate, political animal. political contribution, campaign contribution
+Government	#737a.	Politics [specific politicians: list], candidate, aspirant, hopeful, office-seeker, front-runner, dark horse, long shot, shoo-in
+Government	#737a.	Politics regional candidate, favorite son
+Government	#737a.	Politics perpetual candidate, political animal. political contribution, campaign contribution
+Politics	#737b.	 [specific politicians: list], candidate, aspirant, hopeful, office-seeker, front-runner, dark horse, long shot, shoo-in
+Politics	#737b.	 regional candidate, favorite son
+Politics	#737b.	 perpetual candidate, political animal. political contribution, campaign contribution
+Offer	#763.	 volunteer, come forward, be a candidate
+Petitioner	#767.	 suitor, candidate, claimant, postulant, aspirant, competitor, bidder
+Desire	#865.	 dipsomania, kleptomania. [Person who desires] lover, amateur, votary, devotee, aspirant, solicitant, candidate, applicant, supplicant

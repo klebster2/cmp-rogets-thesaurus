@@ -1,0 +1,68 @@
+Inextension	#180a.	Region patch, plot, parcel, inclosure, close, field, court
+Region	#181.	 patch, plot, parcel, inclosure, close, field, court
+Abode	#189.	 shack, shebang [Slang], tepee, topek. house, mansion, place, villa, cottage, box, lodge, hermitage, rus in urbe [Lat.], folly, rotunda, tower, chateau, castle, pavilion, hotel, court, manor-house, capital messuage, hall, palace
+Abode	#189.	 ghetto. street, place, terrace, parade, esplanade, alameda, board walk, embankment, road, row, lane, alley, court, quadrangle, quad, wynd [Scot.], close [Scot.], yard, passage, rents, buildings, mews. square, polygon, circus, crescent, mall, piazza, arcade, colonnade, peristyle, cloister
+Receptacle	#191.	 office, court, hall, atrium
+Receptacle	#191.	 lobby, court, courtyard, hall, vestibule, corridor, passage, breezeway
+Quiescence	#265.	 tout court
+Evidence	#467.	 bring forward, bring into court
+Certainty	#474.	 indubitableness, inevitableness, unquestionableness. gospel, scripture, church, pope, court of final appeal
+Manifestation	#525.	 before one's eyes, under one's nose, to one's face, face to face, above board, cartes sur table, on the stage, in open court, in the open streets
+Publication	#531.	 in open court, with open doors. Int. Oyez!, O yes!, notice!, Phr. notice is hereby given
+Motive	#615.	 invite, court. tempt, seduce, overpersuade, entice, allure, captivate, fascinate, bewitch, carry away, charm, conciliate, wheedle, coax, lure
+Pursuit	#622.	 court &c. (request)
+Plan	#626.	 trump card, court card
+Council	#696.	 court of appeal &c. (tribunal)
+Unskillfulness	#699.	 put oneself out of court
+Auxiliary	#711.	 seconder, backer, upholder, abettor, advocate, partisan, champion, patron, friend at court, mediator
+Success	#731.	 put down, put to flight, put to the rout, put hors de combat [Fr.], put out of court. silence, quell, nonsuit, checkmate, upset, confound, nonplus, stalemate, trump
+Authority	#737.	Government courts, supreme court
+Authority	#737.	Government federal judge, justice, justice of the supreme court, chief justice
+Government	Phr.	 courts, supreme court
+Government	Phr.	 federal judge, justice, justice of the supreme court, chief justice
+Government	#737a.	 courts, supreme court
+Government	#737a.	 federal judge, justice, justice of the supreme court, chief justice
+Servant	#746.	 official. retinue, suite, cortege, staff, court. attendant, squire, usher, page, donzel, footboy
+Request	#765.	 mendicate, mump, cadge, beg one's bread. dance attendance on, besiege, knock at the door. bespeak, canvass, tout, make interest, court
+Amusement	#840.	 tennis court, racket court
+Amusement	#840.	 tennis court, racket court
+Fashion	#852.	 drawing-room, civilized life, civilization, town, beau monde [Fr.], high life, court
+Fashion	#852.	 with it, in, faddish. in court, in full dress, in evening dress
+Desire	#865.	 catch at, grasp at, jump at. woo, court, solicit
+Ostentation	#882.	 court dress, full dress, evening dress, ball dress, fancy dress
+Servility	#886.	 worship &c.. sneak, crawl, crouch, cower, sponge, truckle to, grovel, fawn, lick the feet of, kiss the hem of one's garment, kiss one's ass [Vulg.], suck up. pay court to
+Love	#897.	 propitiate, curry favor with, pay one's court to, faire l'aimable [Fr.], set one's cap at, flirt. Adj. loving &c. v.
+Endearment	#902.	 pay one's court to, pay one's addresses to, pay one's attentions to
+Endearment	#902.	 court, woo
+Flattery	#933.	 truckle to, pander to, pandar to, suck up to, kiss the ass of [Vulg.], pay court to
+Flattery	#933.	 court
+Tribunal	#966.	 tribunal, court, board, bench, judicatory
+Tribunal	#966.	 court of justice, court of law, court of arbitration, administrative court
+Tribunal	#966.	 court of justice, court of law, court of arbitration, administrative court
+Tribunal	#966.	 court of justice, court of law, court of arbitration, administrative court
+Tribunal	#966.	 court of justice, court of law, court of arbitration, administrative court
+Tribunal	#966.	 court of record, court oyer and terminer [Law], court assize, court of appeal, court of error
+Tribunal	#966.	 court of record, court oyer and terminer [Law], court assize, court of appeal, court of error
+Tribunal	#966.	 court of record, court oyer and terminer [Law], court assize, court of appeal, court of error
+Tribunal	#966.	 court of record, court oyer and terminer [Law], court assize, court of appeal, court of error
+Tribunal	#966.	 court of record, court oyer and terminer [Law], court assize, court of appeal, court of error
+Tribunal	#966.	 High court of Judicature, High court of Appeal
+Tribunal	#966.	 High court of Judicature, High court of Appeal
+Tribunal	#966.	 Lords Justices' court, Rolls court, Vice Chancellor's court, Stannary court, Divorce court, Family court, Palatine court, county court, district court, police court
+Tribunal	#966.	 Lords Justices' court, Rolls court, Vice Chancellor's court, Stannary court, Divorce court, Family court, Palatine court, county court, district court, police court
+Tribunal	#966.	 Lords Justices' court, Rolls court, Vice Chancellor's court, Stannary court, Divorce court, Family court, Palatine court, county court, district court, police court
+Tribunal	#966.	 Lords Justices' court, Rolls court, Vice Chancellor's court, Stannary court, Divorce court, Family court, Palatine court, county court, district court, police court
+Tribunal	#966.	 Lords Justices' court, Rolls court, Vice Chancellor's court, Stannary court, Divorce court, Family court, Palatine court, county court, district court, police court
+Tribunal	#966.	 Lords Justices' court, Rolls court, Vice Chancellor's court, Stannary court, Divorce court, Family court, Palatine court, county court, district court, police court
+Tribunal	#966.	 Lords Justices' court, Rolls court, Vice Chancellor's court, Stannary court, Divorce court, Family court, Palatine court, county court, district court, police court
+Tribunal	#966.	 Lords Justices' court, Rolls court, Vice Chancellor's court, Stannary court, Divorce court, Family court, Palatine court, county court, district court, police court
+Tribunal	#966.	 Lords Justices' court, Rolls court, Vice Chancellor's court, Stannary court, Divorce court, Family court, Palatine court, county court, district court, police court
+Tribunal	#966.	 Lords Justices' court, Rolls court, Vice Chancellor's court, Stannary court, Divorce court, Family court, Palatine court, county court, district court, police court
+Tribunal	#966.	 court-leet [Fr.], court-baron, court of pie poudre [Fr.], court of common council
+Tribunal	#966.	 board of green cloth. court martial
+Tribunal	#966.	 drumhead court martial
+Judge	#967.	 puisne judge, assistant judge, county court judge
+Judge	#967.	 court &c. (tribunal)
+Lawyer	#968.	 officer of the court
+Churchdom	#995.	 ecclesiastical courts, consistorial court, court of Arches. V. call, ordain, induct, prefer, translate, consecrate, present. take orders, take the tonsure, take the veil, take vows. Adj. ecclesiastical, ecclesiological
+Churchdom	#995.	 ecclesiastical courts, consistorial court, court of Arches. V. call, ordain, induct, prefer, translate, consecrate, present. take orders, take the tonsure, take the veil, take vows. Adj. ecclesiastical, ecclesiological

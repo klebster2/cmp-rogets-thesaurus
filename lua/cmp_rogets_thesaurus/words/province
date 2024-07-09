@@ -1,0 +1,6 @@
+Class	#75.	 department, subdepartment, province, domain. kind, sort, genus, species, variety, family, order, kingdom, race, tribe, caste, sept, clan, breed, type, subtype, kit, sect, set, subset
+Abode	#189.	 province, country
+Business	#625.	 province, function, lookout, department, capacity, sphere, orb, field, line
+Authority	#737.	Government province [Can.]
+Government	Phr.	 province [Can.]
+Government	#737a.	 province [Can.]

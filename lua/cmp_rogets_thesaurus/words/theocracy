@@ -1,0 +1,11 @@
+Authority	#737.	Government oligarchy, democracy, theocracy, demagogy
+Authority	#737.	Government feodality, feudal system, feudalism. thearchy, theocracy, dinarchy
+Authority	#737.	Politics theocracy
+Government	Phr.	 oligarchy, democracy, theocracy, demagogy
+Government	Phr.	 feodality, feudal system, feudalism. thearchy, theocracy, dinarchy
+Government	Phr.	Politics theocracy
+Government	#737a.	 oligarchy, democracy, theocracy, demagogy
+Government	#737a.	 feodality, feudal system, feudalism. thearchy, theocracy, dinarchy
+Government	#737a.	Politics theocracy
+Politics	#737b.	 theocracy
+Churchdom	#995.	 theocracy

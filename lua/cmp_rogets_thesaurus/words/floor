@@ -1,0 +1,14 @@
+Receptacle	#191.	 mezzanine floor
+Receptacle	#191.	 ground floor, rez-de-chaussee
+Layer	#204.	 N. layer, stratum, strata, course, bed, zone, substratum, substrata, floor, flag, stage, story, tier, slab, escarpment
+Lowness	#207.	 basement floor, ground floor
+Lowness	#207.	 basement floor, ground floor
+Base	#211.	 substructure, substratum, ground, earth, pavement, floor, paving, flag, carped, ground floor, deck
+Base	#211.	 substructure, substratum, ground, earth, pavement, floor, paving, flag, carped, ground floor, deck
+Horizontality	#213.	 azimuth. plain, floor, platform, bowling green
+Horizontality	#213.	 prostrate, knock down, floor, fell. horizontal, level, even, plane
+Support	#215.	 floor &c. (basement). supporter
+The Drama	#599.	 trap, mezzanine floor
+Plan	#626.	 on the tapis, on the carpet, on the floor.
+Success	#731.	 rout, lick, drub, floor, worst
+Stock Market	#799a.	 privately traded issues. commodities exchange, futures exchange, futures market. the pit, the floor. ticker, stock ticker, quotation
