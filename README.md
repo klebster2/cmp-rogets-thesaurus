@@ -15,9 +15,6 @@ Main issues:
 use "klebster2/cmp-rogets-thesaurus" -- packer.nvim
 ```
 
-nvim-cmp wasn't designed for comparing against thousands of candidates so these improvements should be looked into to prune lists being compared
-
-
 ## Setup
 
 You will need [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
